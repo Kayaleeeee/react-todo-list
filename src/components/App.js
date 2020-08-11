@@ -80,7 +80,7 @@ class App extends Component {
     const { todos } = this.state;
     const index = todos.findIndex(todo => todo.id === id);
 
-    // slice 로 전 후 데이터들을 복사하고, 우리가 찾은 index 는 제외시킵닏3ㅏ.
+    // slice 로 전 후 데이터들을 복사하고, 우리가 찾은 index 는 제외시킵니다.
     this.setState({
       todos: [
         ...todos.slice(0, index),
